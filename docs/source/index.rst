@@ -9,5 +9,7 @@ Contents
 .. toctree::
 
    pr
+   commits
+   testing
 
 .. glossary::
