@@ -8,8 +8,22 @@ Contents
 
 .. toctree::
 
-   pr
-   commits
-   testing
+   standards/pr
+   standards/commits
+   standards/agile
+
+   tooling/vscode
+   tooling/chrome
+
+   design/softwareArchitecture
+   design/systemDesign
+   design/designPatterns
+
+   languages/python
+   languages/typeScript
+
+   testing/testing
 
 .. glossary::
+
+See https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst for rst-cheatsheet
