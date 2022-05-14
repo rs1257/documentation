@@ -7,11 +7,35 @@ Extensions
 General
 ^^^^^^^
 
+**Git lens** - https://github.com/gitkraken/vscode-gitlens
+  Improved git support making it easier to understand the history of the code
+
+**Error lens** - https://github.com/usernamehw/vscode-error-lens
+  Makes errors more obvious and shows them in the editor, removes the need to hover over errors.
+
+**Code Spell Checker** - https://github.com/streetsidesoftware/vscode-spell-checker
+  Prevents typos in the code you write and makes it easy to spot existing typos
+
+**Indent Rainbow** - https://github.com/oderwat/vscode-indent-rainbow
+  Indentation is easier to read
+
+**Live Share** - https://github.com/MicrosoftDocs/live-share
+  Makes pair programming easy
+
+**Bookmark** - https://github.com/alefragnani/vscode-bookmarks
+  Makes it easy to jump around code and determine its behavior
+
+**Tabnine** - https://github.com/codota/tabnine-vscode
+  AI code completion to boost productivity
+
+Python
+^^^^^^
+
 TypeScript
 ^^^^^^^^^^
 
-JavaScript
-^^^^^^^^^^
+Web
+^^^
 
 Settings Profiles
 ^^^^^^^^^^^^^^^^^
