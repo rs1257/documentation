@@ -14,6 +14,7 @@ Contents
 
    tooling/vscode
    tooling/chrome
+   tooling/versionControl
 
    design/softwareArchitecture
    design/systemDesign
@@ -21,6 +22,7 @@ Contents
 
    languages/python
    languages/typeScript
+   languages/databases
 
    testing/testing
 
