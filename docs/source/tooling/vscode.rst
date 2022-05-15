@@ -19,8 +19,14 @@ General
 **Indent Rainbow** - https://github.com/oderwat/vscode-indent-rainbow
   Indentation is easier to read
 
+**Trailing Spaces** - https://github.com/shardulm94/vscode-trailingspaces
+  Makes it easy to spot and remove trailing spaces
+
 **Live Share** - https://github.com/MicrosoftDocs/live-share
   Makes pair programming easy
+
+**Remote Development** - https://github.com/Microsoft/vscode-remote-release
+  Provides remote development support for SSH, Containers and WSL
 
 **Bookmark** - https://github.com/alefragnani/vscode-bookmarks
   Makes it easy to jump around code and determine its behavior
