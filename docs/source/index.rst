@@ -26,4 +26,6 @@ Contents
 
    testing/testing
 
+   AWS
+
 .. glossary::
