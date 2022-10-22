@@ -28,4 +28,6 @@ Contents
 
    AWS
 
+   Azure
+
 .. glossary::
