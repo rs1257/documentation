@@ -26,8 +26,10 @@ Contents
 
    testing/testing
 
-   CLF-C01
+   certifications/aws/clf-c01
 
-   AZ-900
+   certifications/azure/az-900
+
+   certifications/gcp/empty
 
 .. glossary::
