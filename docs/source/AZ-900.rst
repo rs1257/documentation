@@ -1,8 +1,17 @@
+AZ-900 Azure Fundamentals
+=========================
+
 Describe cloud concepts (25–30%)
-================================
+--------------------------------
+.. raw:: html
+
+  <hr>
 
 Describe cloud computing
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Define cloud computing
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -23,7 +32,10 @@ Compare cloud pricing models
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe the benefits of using cloud services
----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe the benefits of high availability and scalability in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -38,7 +50,10 @@ Describe the benefits of manageability in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe cloud service types
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe infrastructure as a service (IaaS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -53,10 +68,16 @@ Identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe Azure architecture and services (35–40%)
-=================================================
+-------------------------------------------------
+.. raw:: html
+
+  <hr>
 
 Describe the core architectural components of Azure
----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe Azure regions, region pairs, and sovereign regions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,7 +101,10 @@ Describe the hierarchy of resource groups, subscriptions, and management groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe Azure compute and networking services
-----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Compare compute types, including container instances, virtual machines (VMs), and functions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,7 +125,10 @@ Define public and private endpoints
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe Azure storage services
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Compare Azure storage services
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -122,12 +149,15 @@ Describe migration options, including Azure Migrate and Azure Data Box
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe Azure identity, access, and security
----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe directory services in Azure, including Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra and Azure Active Directory Domain Services (Azure AD DS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and passwordless
+Describe authentication methods in Azure, including single sign~on (SSO), multifactor authentication, and passwordless
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe external identities and guest access in Azure
@@ -149,10 +179,16 @@ Describe the purpose of Microsoft Defender for Cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe Azure management and governance (30–35%)
-=================================================
+-------------------------------------------------
+.. raw:: html
+
+  <hr>
 
 Describe cost management in Azure
----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe factors that can affect costs in Azure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -167,7 +203,10 @@ Describe the purpose of tags
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe features and tools in Azure for governance and compliance
-------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe the purpose of Azure Blueprints
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -182,7 +221,10 @@ Describe the purpose of the Service Trust Portal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe features and tools for managing and deploying Azure resources
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe the Azure portal
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -197,7 +239,10 @@ Describe Azure Resource Manager and Azure Resource Manager templates (ARM templa
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe monitoring tools in Azure
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. raw:: html
+
+  <hr>
 
 Describe the purpose of Azure Advisor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

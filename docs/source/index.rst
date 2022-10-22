@@ -26,8 +26,8 @@ Contents
 
    testing/testing
 
-   AWS
+   CLF-C01
 
-   Azure
+   AZ-900
 
 .. glossary::
