@@ -15,21 +15,90 @@ Describe cloud computing
 
 Define cloud computing
 ^^^^^^^^^^^^^^^^^^^^^^^^
+Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model.
 
 Describe the shared responsibility model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The shared responsibility model defines who is responsible between the cloud provider and the consumer.
+
+You are always responsible for:
+
+- Information and data stored in the cloud
+- Devices that are allowed to connect to the cloud
+- The accounts and identities of the people, services and devices within your organization
+
+The cloud provider is always responsible for:
+
+- The physical datacenter
+- The physical network
+- The physical hosts
+
+The service model will determine responsibility for the following:
+
+- Operating systems
+- Network controls
+- Applications
+- Identity and Infrastructure
 
 Define cloud models, including public, private, and hybrid
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Private cloud - Cloud that is used by a single entity. Provides much greater control for the company and its IT department.
+However, it comes with greater cost and fewer benefits of the public cloud.
+
+Public cloud - built, controlled and maintained by a third-party cloud provider. Anyone who wants to purchase cloud services can access and use resources.
+
+Hybrid cloud - uses both public and private cloud in a interconnected environment. Can be used to handle a surge in demand.
+Also can provide an extra level of security.
+
+Multi-cloud - you use multiple cloud providers. This may be as you need different features from each. Or you are in the process of migrating from one to another.
+
+Azure Arc - Helps you manage cloud environment for a combination of all the types of cloud above.
+
+Azure VMWare Solution - migrate private cloud VMware to public or hybrid cloud. Lets you run it with seamless integration.
 
 Identify appropriate use cases for each cloud model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++-----------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
+| Public Cloud                                                          | Private Cloud                                                      | Hybrid Cloud                                                      |
++-----------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
+| No capital expenditures to scale up                                   | Organizations have complete control over resources and security    | Provides the most flexibility                                     |
++-----------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
+| Applications can be quickly provisioned and deprovisioned             | Data is not collocated with other organizations' data              | Organizations determine where to run their applications           |
++-----------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
+| Organizations pay only for what they use                              | Hardware must be purchased for startup and maintenance             | Organizations control security, compliance, or legal requirements |
++-----------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
+| Organizations don't have complete control over resources and security | Organizations are responsible for hardware maintenance and updates |                                                                   |
++-----------------------------------------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------------+
 
 Describe the consumption-based model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Capital expenditures (CapEx) - tyically one time up front expenditures to purchase tangible resources.
+
+Operational expenditures (OpEx) - spending money on services or products over time. Cloud computing falls under here.
+
+Consumption based model - you don't may for the physical infrastructure, the electricity, the security or anything else related to maintaining a data center.
+Instead you pay for the IT resources that you use. If you do not use anything then you do not need to pay.
+
+Some benefits follow:
+
+- No upfront costs
+- No need to purchase and manage costly infrastructure that users may not use to its fullest potential
+- The ability to pay for more resources when they are needed
+- The ability to stop paying for resources when they are no longer needed
 
 Compare cloud pricing models
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You typically only pay for the cloud services which you use which helps you to:
+
+- Plan and manage your operating costs
+- Run your infrastructure more efficiently
+- Scale as your business needs change
+
+You basically rent compute power and storage from someone else and use them the same way. The only difference is when you are done you can give them back and are only billed for your usage.
+
+Instead of maintaining CPUs and storage, you rent them for the time you need. The cloud provider does the maintenance and underlying infrastructure for you.
+The cloud enables you to quickly solve your toughest business challenges and bring cutting edge solutions to your users.
+
 
 Describe the benefits of using cloud services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,15 +108,48 @@ Describe the benefits of using cloud services
 
 Describe the benefits of high availability and scalability in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+High availability - resources are available when needed. This focuses on ensuring maximum resource usage availability, regardless of disruptions or events that may occur. When doing your solution you will need to look at availability guarantees.
+Azure is a highly available cloud environment with uptime guarantees depending on the service. These guarantees are part of the service-level agreements (SLAs).
+
+Scalability - the ability to adjust resources to meet demand. So can handle sudden peak traffic to prevent a system from being overwhelmed. The also means you do not overpay for resources. If demand drops off you can reduce resources and therefore the cost too.
+
+There are two types of scaling:
+
+- Vertical - add more/less CPU/RAM to the VM
+- Horizontal - add more/less VMs
 
 Describe the benefits of reliability and predictability in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Reliability - ability for the system to recover from failures and continue to function. The cloud allows you to deploy to many regions, so if there is a catastrophic event other regions are still up and running.
+
+Predictability - lets you move forward with confidence. Can be focused on performance or cost.
+
+Performance - predicts resources needed to deliver a positive experience for your customers. E.g. Autoscaling, load balancing .etc.
+
+Cost - Predicting or forecasting the cost of the cloud spend. You can track resource use in real time and monitor resources to ensure they are used in the most efficient way. You can predict future costs and adjust your resources as needed. You can also use TCO or pricing calculator to get an estimate of potential spend.
+
 
 Describe the benefits of security and governance in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Governance - Templates exist to ensure all deployed resources meet corporate standards and government regulatory requirements. Plus you can easily update when standards change. You can easily flag resources thats out of compliance and sometimes have them automatically applied.
+
+Security - If you want max control use IaaS, if you want that done for you use PaaS. Also cloud providers are well suited for handling distributed denial of service attacks, making your network more robust and secure.
 
 Describe the benefits of manageability in the cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Management of the cloud - managing your cloud resources, in the cloud you can:
+
+- Automatically scale resource deployment based on need
+- Deploy resources based on a pre-configured template, removing the need for manual configuration
+- Monitor health of resources and automatically replace failing resources
+- Receive automatic alerts based on configured metrics, so you are aware of performance in real time
+
+Management in the cloud - how you are able to manage your cloud environment and resources
+
+- Through a web portal
+- Using the command line Interface
+- Using APIs
+- Using PowerShell
 
 Describe cloud service types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,15 +159,33 @@ Describe cloud service types
 
 Describe infrastructure as a service (IaaS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Infrastructure as a service (IaaS) - most flexible category of cloud services. Provides the maximum amount of control for your cloud resources. You basically choose what to do with the hardware.
 
 Describe platform as a service (PaaS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Describe platform as a service (PaaS) - The middle ground. You don't have to worry about licensing or patching for operating systems and databases. Can provide a complete development environment without the headache of maintaining infrastructure.
 
 Describe software as a service (SaaS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Describe software as a service (SaaS) - The most complete product. Renting or using a fully developed application. Least flexible but easiest to get up and running. Also requires the least amount of technical knowledge.
 
 Identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IaaS:
+
+- Lift and shift migration - moving from on prem to cloud.
+- Testing and development - You have established configurations for development and test environments that you need to rapidly replicate. You can stand up or shut down the different environments rapidly with an IaaS structure, while maintaining complete control.
+
+PaaS:
+
+- Development framework - Provides a framework developers can build on to develop or customize cloud based applications. Reduces the amount of coding developers need to do.
+- Analytics or business intelligence - Tools provides allow organizations to analyze and mine their data, finding insights and patterns and predicting outcomes to improve forecasting, product design decisions, investment returns and other business decisions.
+
+SaaS:
+
+- Email and messaging
+- Business productivity applications
+- Fiance and expense tracking
 
 Describe Azure architecture and services (35–40%)
 -------------------------------------------------
