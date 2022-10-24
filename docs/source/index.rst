@@ -30,6 +30,6 @@ Contents
 
    certifications/azure/az-900
 
-   certifications/gcp/empty
+   certifications/gcp/dcl
 
 .. glossary::
