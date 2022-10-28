@@ -29,7 +29,7 @@ You are always responsible for:
 
 The cloud provider is always responsible for:
 
-- The physical datacenter
+- The physical data center
 - The physical network
 - The physical hosts
 
@@ -72,7 +72,7 @@ Identify appropriate use cases for each cloud model
 
 Describe the consumption-based model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Capital expenditures (CapEx) - tyically one time up front expenditures to purchase tangible resources.
+Capital expenditures (CapEx) - typically one time up front expenditures to purchase tangible resources.
 
 Operational expenditures (OpEx) - spending money on services or products over time. Cloud computing falls under here.
 
@@ -205,8 +205,8 @@ Describe Azure regions, region pairs, and sovereign regions
 Describe availability zones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Describe Azure datacenters
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Describe Azure data centers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe Azure resources and resource groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -277,8 +277,8 @@ Describe Azure identity, access, and security
 Describe directory services in Azure, including Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra and Azure Active Directory Domain Services (Azure AD DS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and passwordless
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Describe authentication methods in Azure, including single sign-on (SSO), multi-factor authentication, and password-less
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Describe external identities and guest access in Azure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
